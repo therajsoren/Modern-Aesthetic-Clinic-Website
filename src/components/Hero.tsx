@@ -33,8 +33,8 @@ const data: Data[] = [
 
 const Hero = () => {
   return (
-    <div className="bg-pink-100 p-8">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div className="bg-pink-100 p-8 pt-28 pb-32">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div className="">
           <div className="capitalize lg:text-4xl text-2xl font-bold tracking-widest">
             <h1>
@@ -42,7 +42,7 @@ const Hero = () => {
               <span className="text-pink-600">beauty</span>
             </h1>
           </div>
-          <div className="mt-4 lg:leading-8">
+          <div className="mt-4 lg:leading-8 leading-relaxed">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
               rerum voluptatibus, architecto quos provident eligendi laudantium,
