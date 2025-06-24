@@ -48,7 +48,7 @@ const Header = () => {
   }, [menuOpen])
 
   return (
-    <div className="bg-pink-100">
+    <div className="bg-pink-100 shadow-lg rounded-lg">  {/* ❎ */}
       <div className="container mx-auto lg:flex lg:justify-between lg:px-6 lg:py-6 px-4 py-4 lg:items-center flex flex-row justify-between">
         <div>
           {/* left header section */}
