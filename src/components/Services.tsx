@@ -61,10 +61,10 @@ const Services = () => {
           {content.map((item, index) => (
             <div key={index} className="bg-gray-100 w-full h-full pb-4 rounded-md">
               <div className="p-4 pt-4">
-                <item.icon />
+                <item.icon color="pink" />
               </div>
               <div className="flex items-center justify-center flex-col">
-                <h1 className="font-bold md:text-xl text-sm">{item.title}</h1>
+                <h1 className="font-bold md:text-xl text-sm capitalize">{item.title}</h1>
                 <p className="tracking-widest leading-relaxed p-6">
                   {item.elem}
                 </p>
