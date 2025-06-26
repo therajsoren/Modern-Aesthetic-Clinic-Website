@@ -134,12 +134,11 @@ const Footer = () => {
           </div>
           <div className="flex md:space-x-8 space-x-4">
             {icons.map((item, index) => (
-              <div
-                key={index}
-                className="rounded-full border md:p-2 p-1 border-gray-400 "
-              >
-                <item.icon size={20} />
-              </div>
+              <ul key={index}>
+                <li className="rounded-full border md:p-2 p-1 border-gray-400 ">
+                  <item.icon size={20} />
+                </li>
+              </ul>
             ))}
           </div>
         </div>
@@ -150,9 +149,9 @@ const Footer = () => {
             </h1>
             <div className="space-y-2">
               {links.content.map((item, index) => (
-                <h2 key={index} className="capitalize text-base">
-                  {item.label}
-                </h2>
+                <ul key={index}>
+                  <li className="capitalize text-base">{item.label}</li>
+                </ul>
               ))}
             </div>
           </div>
@@ -206,7 +205,9 @@ const Footer = () => {
           <div className="flex gap-2">
             <Copyright size={20} /> 2025
           </div>
-          <div className="first-letter:capitalize">glamour clinic. All right reserved</div>
+          <div className="first-letter:capitalize">
+            glamour clinic. All right reserved
+          </div>
         </div>
         <div className="px-4">
           {/* right side */}
